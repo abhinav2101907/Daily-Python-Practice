@@ -1,5 +1,5 @@
 #Create a simple calculator
-a = int(input("enter the valur of a"))
+'''a = int(input("enter the valur of a"))
 b = int(input("enter the value of b"))
 c = int(input("Select option for performance\n1 ,2 ,3 ,4"))
 if (c == 1):
@@ -11,4 +11,8 @@ elif(c == 3):
 elif(c == 4):
     print("Solution =", a /b)
 else:
-    print("wrong selection")
+    print("wrong selection")'''
+#length of a name
+'''names = "abhinav"
+print(len(names))'''
+
