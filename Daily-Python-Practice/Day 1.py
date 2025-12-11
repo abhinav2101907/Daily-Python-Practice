@@ -64,3 +64,9 @@ for i in Arr:
 '''for i in range(0,31,2):
     print(i)'''
 #while loop
+'''i = 0
+n = int(input("Enter no."))
+while (i<n):
+    print(i)
+    i = i+1'''
+
