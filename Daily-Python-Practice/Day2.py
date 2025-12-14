@@ -1,6 +1,6 @@
 #Break and Continue
-#Searching the no. in array using break(linear search)
-'''arr = [2,3,6,7,89,4,7,56,448,2]
+'''#Searching the no. in array using break(linear search)
+arr = [2,3,6,7,89,4,7,56,448,2]
 no = int(input("enter the no. you to search"))
 for i in arr:
     if(no == i):
@@ -8,6 +8,16 @@ for i in arr:
         break
 else:
     print("not found")'''
+#Searching the no. in array and finding where it is
+''''arr = [2,3,6,7,89,4,7,56,448,2]
+no = int(input("enter the no. you to search"))
+for i in arr:
+    if(no == i):
+        print(arr.index(no))
+        print("found")
+        break
+else:
+    print("not found")''''
 #Printing odd no. till 100 using Continue
 '''for i in range(100):
     if (i%2 == 0):
@@ -102,7 +112,6 @@ array(no1)'''
     print(arr)
 
 array()'''
-
 
 
 
