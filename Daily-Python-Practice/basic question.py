@@ -103,6 +103,18 @@ if (flag == 1):
     print("not sorted")
 else:
     print("sorted")'''
+#q11
+# lst = [12, 7, 5, 18, 3, 10, 4, 5, 10]
+'''i = 0
+arr =[]
+while i < len(lst):
+    j = i+1
+    while j < len(lst):
+        if lst[i] == lst[j] and lst[i] not in arr:
+            arr.append(lst[j])
+        j+=1
+    i+=1
+print(arr)'''
 
 
 
