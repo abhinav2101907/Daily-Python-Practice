@@ -38,10 +38,12 @@ except IndexError:
         print("letss go again")
 
 func1()'''
-
-
-
-
+#enumurate
+'''l1 = [43,65,12,76,34,73,32]
+for index , point in enumerate(l1):
+    if (index == 4):
+        print("i love you")
+    print(point)'''
 
 
 
