@@ -17,7 +17,7 @@ for i in arr:
         print("found")
         break
 else:
-    print("not found")''''
+    print("not found")'''
 #Printing odd no. till 100 using Continue
 '''for i in range(100):
     if (i%2 == 0):
@@ -92,7 +92,7 @@ for i in range(no):
 print(arr)
 '''
 #appending in array using function
-'''def array(no):
+def lst(no):
     arr = []
     for i in range(no):
         n = int(input("enter which no. to add"))
@@ -101,7 +101,7 @@ print(arr)
 
 
 no1 = int(input("enter how many no. you want to add"))
-array(no1)'''
+lst(no1)
 
 '''def array():
     arr = []

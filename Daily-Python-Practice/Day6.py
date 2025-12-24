@@ -1,3 +1,66 @@
+#File IO
+#reads a file
+'''f = open("hello.txt","r")
+text = f.read()
+print(text)
+f.close()
+'''
+#Write in a file
+#overwrites the contant of a file
+'''f = open("hello.txt","w")
+text = f.write("Hey my name is Abhinav!")
+print(text)
+f.close()'''
+#append
+#adds string to the previous one
+'''f = open("hello.txt","a")
+text = f.write(" this is nice")
+print(text)
+f.close()'''
+#with statement
+#No need to close the file
+'''with open("hello.txt","r") as f:
+    print(f.read())
+'''
+lst = [1, 2, 3, 4]
+
+for i in range(len(lst)):
+    for j in range(i + 1, len(lst)):
+        print(lst[i] + lst[j])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #More with Loops
 '''for i in range(6):
     print(i)
@@ -44,6 +107,33 @@ for index , point in enumerate(l1):
     if (index == 4):
         print("i love you")
     print(point)'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

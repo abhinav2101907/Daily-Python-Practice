@@ -118,6 +118,37 @@ print(arr)'''
 
 
 
+'''nums = [0,0,0,0]
+seek = set()
+target = 0
+for val in range(len(nums)):
+    for j in range(val+1,len(nums)):
+        for k in range(j+1,len(nums)):
+            if nums[val]+nums[j]+nums[k] == target:
+                trip= tuple(sorted([nums[val],nums[j],nums[k]]))
+                seek.add(trip)
+return ([list(t) for t in seek])'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
